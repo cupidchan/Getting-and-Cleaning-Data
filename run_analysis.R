@@ -1,3 +1,4 @@
+library(dplyr)
 # 1) Merges the training and the test sets to create one data set.
 # Read the source files
 train <- read.table(".\\train\\X_train.txt", header=FALSE)

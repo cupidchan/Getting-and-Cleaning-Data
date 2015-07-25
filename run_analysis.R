@@ -59,6 +59,10 @@ names(meanAndStd) <- gsub("fBodyAccMag", "Body Acc Mag (freq)",names(meanAndStd)
 names(meanAndStd) <- gsub("fBodyAccJerkMag", "Body Acc Jerk Mag (freq)",names(meanAndStd))
 names(meanAndStd) <- gsub("fBodyGyroMag", "Body Gyro Mag (freq)",names(meanAndStd))
 names(meanAndStd) <- gsub("fBodyGyroJerkMag", "Body Gyro Jerk Mag (freq)",names(meanAndStd))
+names(meanAndStd) <- gsub("fBodyBodyAccJerkMag", "Body Acc Jerk Mag (freq)",names(meanAndStd))
+names(meanAndStd) <- gsub("fBodyBodyGyroMag", "Body Gyro Mag (freq)",names(meanAndStd))
+names(meanAndStd) <- gsub("fBodyBodyGyroJerkMag", "Body Gyro Jerk Mag (freq)",names(meanAndStd))
+
 
 # 5) From the data set in step 4, creates a second, independent tidy data set with the 
 #    average of each variable for each activity and each subject.
